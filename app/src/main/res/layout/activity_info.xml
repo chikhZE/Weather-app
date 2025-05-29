@@ -22,11 +22,12 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/country"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/cairo"
+                android:gravity="center"
                 android:text="Monday,27th april"
                 android:textColor="#fff"
                 android:textSize="24sp"
@@ -35,66 +36,70 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/localtime"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/cairo"
+                android:gravity="center"
                 android:text="6:27am"
                 android:textColor="#Fff"
                 android:textSize="50sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+                app:layout_constraintTop_toBottomOf="@+id/country" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/cairo"
+                android:gravity="center"
                 android:text="London"
                 android:textColor="#Fff"
                 android:textSize="24sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView" />
+                app:layout_constraintTop_toBottomOf="@+id/localtime" />
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/img"
                 android:layout_width="200dp"
                 android:layout_height="200dp"
                 android:layout_marginTop="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView3"
+                app:layout_constraintTop_toBottomOf="@+id/name"
                 app:srcCompat="@drawable/test" />
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/temp_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:fontFamily="@font/cairo"
+                android:gravity="center"
                 android:text="10°"
                 android:textColor="#Fff"
                 android:textSize="80sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+                app:layout_constraintTop_toBottomOf="@+id/img" />
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/how"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/cairo"
+                android:gravity="center"
                 android:text="Sunny"
                 android:textColor="#Fff"
                 android:textSize="24sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+                app:layout_constraintTop_toBottomOf="@+id/temp_c" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -104,7 +109,7 @@
                 android:background="@drawable/line"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+                app:layout_constraintTop_toBottomOf="@+id/how" />
 
             <TextView
                 android:id="@+id/textView7"
