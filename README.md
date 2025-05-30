@@ -52,7 +52,7 @@ A simple yet elegant Android weather app that lets users search for a city and v
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/weather-app.git
+   git clone https://github.com/chikhZE/Weather-app.git
    ```
 2. Open it in **Android Studio**.
 3. Add your weather API key in the appropriate config file.
